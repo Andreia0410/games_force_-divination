@@ -1,0 +1,34 @@
+#inteiros = [1, 3, 4, 5, 7, 8, 9]
+#pares = []
+#for numero in inteiros:
+    #if numero % 2 == 0:
+        #pares.append(numero)
+        #print(pares)
+
+# List Comprehensions - if depois do for que define a condição
+
+#inteiros = [1, 3, 4, 5, 7, 8, 9]
+#pares = [numero for numero in inteiros if numero % 2 == 0]
+#pares.append(numero)
+#print(pares)
+
+
+# Escrevendo e Lendo um arquivo de texto
+# arquivo = open("palavras.txt", "w")
+# arquivo
+# arquivo.write("Banana")
+# Boa prática quando se trabalha com escrita e leitura de arquivos fechá-los ao final
+# arquivo.close()
+# Para ler um arquivo -->
+# arquivo = open("palavras.txt", "r")
+# arquivo.read()
+# Um arquivo é uma sequência de linhas, sendo assim vc pode usar um for
+# Enquanto "_" dentro das letras acertadas "_" não existe em letras_acertadas
+
+# print("\n           Fim!           ")
+# mensagem_de_abertura()
+
+# .strip() --> retira os espaços da string, função que faz parte do str
+# .find() --> Procura se existe o argumento na strig
+# .starswith() --> Return True, argumento(prefixo) existe na string
+# .endswith() --> Retorna True, argumento(sufixo) existe na string
